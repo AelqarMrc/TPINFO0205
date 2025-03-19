@@ -22,5 +22,8 @@ function checkFormat(champ){
 }
 
 function checkValidity(champ){
-    
+    if (champ.value != ""){
+        console.log("c bon");
+        
+    }
 }
