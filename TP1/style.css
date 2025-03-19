@@ -1,0 +1,39 @@
+body{
+    font-family: monospace;
+}
+
+.conteneur{
+    display: grid;
+    place-content: center;
+}
+
+.contenu{
+    width: 50%;
+    min-width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px  0;
+}
+button{
+    margin: 10px auto;
+}
+h1{
+    margin: 10px auto;
+}
+.message{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px;
+    word-wrap: break-word;
+}
+.droite{
+    border: 1px solid #AAFFAA;
+    background-color: #0000FF;
+    margin-left: 100px;
+}
+.gauche{
+    border: 1px solid #0000FF;
+    background-color: #AAFFAA;
+    margin-right: 100px;
+}
