@@ -36,11 +36,11 @@
       <div class="row mb-3">
         <label for="inputDateDebut" class="col-sm-2 col-form-label">Date de début</label>
         <div class="col-sm-4">
-          <input type="date" class="form-control" id="inputDateDebut" value="" name="DATE">
+          <input type="text" class="form-control" id="inputDateDebut" value="" name="DATE" required onchange="checkFormat(this)">
         </div>
         <label for="inputDateFin" class="col-sm-2 col-form-label">Date de fin</label>
         <div class="col-sm-4">
-          <input type="date" class="form-control" id="inputDateFin" value="" name="DATE">
+          <input type="date" class="form-control" id="inputDateFin" value="" name="DATE" required onchange="checkFormat(this)">
         </div>
       </div>
       <div class="row mb-3">
