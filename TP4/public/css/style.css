@@ -1,0 +1,19 @@
+#shifumi{
+    display: flex;
+}
+#shifumi div{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+#shifumi img{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    transition: 0.2s;
+}
+#shifumi img:hover{
+    border: 1px solid red ;
+}
